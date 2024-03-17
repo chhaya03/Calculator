@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+
+.container {
+
+    height: 100vh;
+    width: 100%;
+    background-color: #e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator {
+
+    padding: 20px;
+    background-color: #3a4452;
+    border-radius: 10px;
+
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0;
+}
+
+.display input {
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-row input {
+    padding: 15px 15px 15px 15px;
+    color: #00ffff;
+
+    background-color: transparent;
+    border-radius: 30%;
+    margin-block: 5px;
+    font-weight: bolder;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+#point {
+    padding-inline: 20px;
+}
+
+#division {
+    padding-inline: 20px;
+}
+
+.second-row input {
+    padding: 20px 20px 20px 20px;
+    color: #ffff;
+    background-color: transparent;
+
+    border-radius: 30%;
+    margin-block: 5px;
+    font-weight: bolder;
+    font-size: large;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+#multi {
+    color: #00ffff;
+}
+
+
+.third-row input {
+
+    padding: 20px 20px 20px 20px;
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 30%;
+    margin-block: 5px;
+    font-weight: bolder;
+    font-size: large;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+#minus {
+    color: #00ffff;
+}
+
+
+.fourth-row input {
+
+    padding: 20px 20px 20px 20px;
+    color: #ffff;
+    background-color: transparent;
+
+    border-radius: 30%;
+    margin-block: 5px;
+    font-weight: bolder;
+    font-size: large;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+#plus {
+    color: #00ffff;
+}
+
+.fifth-row input {
+
+    padding: 20px 20px 20px 20px;
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 30%;
+    margin-block: 5px;
+    font-weight: bolder;
+    font-size: large;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+#equal {
+
+    width: 120px;
+    color: #00ffff;
+}
