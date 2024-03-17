@@ -2,8 +2,8 @@
 Using html css and javascript
 <ul>
  
-    html
-css
-javascript
+<li>HTML</li>
+<li>CSS</li>
+<li>JAVASCRIPT</li>
   
 </ul>
